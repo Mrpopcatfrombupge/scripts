@@ -1,0 +1,30 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("mr pop cat hub","BloodTheme")
+
+---Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+local Tab2 = window:NewTab("Sup")
+local Tab2Section = Tab2:NewSection("Sup is word")
+local Tab3 = window:NewTab("Credits")
+local Tab3Section = Tab3:NewSection("Made By mr pop cat minecraft - roblox")
+local Tab3Section = Tab3:NewSection("mr pop cat#5496")
+
+---Buttons
+
+Tab1Section:NewButton("kill gui","Increase Range",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Kill%20gui%20v2",true))();
+end)
+
+Tab1Section:NewButton("Trick shot sim","Makes You Invisible",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Trickshot_simsexyGUI.lua",true))();
+end)
+
+Tab1Section:NewButton("soon","Increase Range",function()
+--soon
+end)
+
+Tab2Section:NewButton("Keyboard","Pc Like Keyboard",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
