@@ -1,30 +1,83 @@
+
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local window = kavoUi.CreateLib("mr pop cat hub","BloodTheme")
+local window = kavoUi.CreateLib("mr pop cat hub","Ocean")
 
 ---Tabs
 
-local Tab1 = window:NewTab("Main")
-local Tab1Section = Tab1:NewSection("Main")
-local Tab2 = window:NewTab("Sup")
-local Tab2Section = Tab2:NewSection("Sup is word")
-local Tab3 = window:NewTab("Credits")
-local Tab3Section = Tab3:NewSection("Made By mr pop cat minecraft - roblox")
-local Tab3Section = Tab3:NewSection("mr pop cat#5496")
+local Tab1 = window:NewTab("Main ⛑")
+local Tab1Section = Tab1:NewSection("Main ⛑")
+local Tab2 = window:NewTab("Sup ⛑")
+local Tab2Section = Tab2:NewSection("Sup is word ⛑")
+local Tab3 = window:NewTab("Credits ⛑")
+local Tab3Section = Tab3:NewSection("Made By mr pop cat minecraft - roblox 🦁")
+local Tab3Section = Tab3:NewSection("mr pop cat#5496 (discord user name)")
 
 ---Buttons
 
-Tab1Section:NewButton("kill gui","Increase Range",function()
+Tab1Section:NewButton("kill gui 🧨"," kill gui works in all gemes you need a item",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Kill%20gui%20v2",true))();
 end)
 
-Tab1Section:NewButton("Trick shot sim","Makes You Invisible",function()
+Tab1Section:NewButton("Trick shot sim 🏅"," idk ",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Trickshot_simsexyGUI.lua",true))();
 end)
 
-Tab1Section:NewButton("soon","Increase Range",function()
+Tab1Section:NewButton("soon 🎩"," soon",function()
 --soon
 end)
 
-Tab2Section:NewButton("Keyboard","Pc Like Keyboard",function()
+Tab2Section:NewButton("Keyboard ⌨️","Pc Like Keyboard",function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+Tab2Section:NewButton("inf yaild ♾️","fe admin cmds",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("fly","soon",function()
+--soon
+end)
+
+Tab2Section:NewButton("ice hub ❄","ice hub",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+---Tabs
+
+local Tab1 = window:NewTab("Main ⛑")
+local Tab1Section = Tab1:NewSection("Main ⛑")
+local Tab2 = window:NewTab("Sup ⛑")
+local Tab2Section = Tab2:NewSection("Sup is word ⛑")
+local Tab3 = window:NewTab("Credits ⛑")
+local Tab3Section = Tab3:NewSection("Made By mr pop cat minecraft - roblox 🦁")
+local Tab3Section = Tab3:NewSection("mr pop cat#5496 (discord user name)")
+
+---Buttons
+
+Tab1Section:NewButton("kill gui 🧨"," kill gui works in all gemes you need a item",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Kill%20gui%20v2",true))();
+end)
+
+Tab1Section:NewButton("Trick shot sim 🏅"," idk ",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Trickshot_simsexyGUI.lua",true))();
+end)
+
+Tab1Section:NewButton("soon 🎩"," soon",function()
+--soon
+end)
+
+Tab2Section:NewButton("Keyboard ⌨️","Pc Like Keyboard",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+Tab2Section:NewButton("inf yaild ♾️","fe admin cmds",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("fly","soon",function()
+--soon
+end)
+
+Tab2Section:NewButton("ice hub ❄","ice hub",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
