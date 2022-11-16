@@ -1,6 +1,5 @@
-
 local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local window = kavoUi.CreateLib("mr pop cat hub","Ocean")
+local window = kavoUi.CreateLib("mr pop cat hub [ working to make new big update soon! XD]","Ocean")
 
 ---Tabs
 
@@ -11,6 +10,8 @@ local Tab2Section = Tab2:NewSection("Sup is word ⛑")
 local Tab3 = window:NewTab("Credits ⛑")
 local Tab3Section = Tab3:NewSection("Made By mr pop cat minecraft - roblox 🦁")
 local Tab3Section = Tab3:NewSection("mr pop cat#5496 (discord user name)")
+local Tab4 = window:NewTab("welcome")
+local Tab4Section = Tab4:NewSection("welcome to my script dont miss to subscribe to mr pop cat minecraft - roblox")
 
 ---Buttons
 
@@ -23,61 +24,48 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scr
 end)
 
 Tab1Section:NewButton("soon 🎩"," soon",function()
---soon
-end)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "working";
+                Text = "i have school and my team so pls wait i well add a big upd soon!";
+                Duration = 3.5;
+            })
+            end)
 
 Tab2Section:NewButton("Keyboard ⌨️","Pc Like Keyboard",function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
-end)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "work to fix it!";
+                Text = "sorry working to make new good upd pls wait :D";
+                Duration = 3.5;
+            })
+            end)
 
 Tab2Section:NewButton("inf yaild ♾️","fe admin cmds",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 Tab2Section:NewButton("fly","soon",function()
---soon
-end)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "work to fix it!";
+                Text = "sorry working to make new good upd pls wait :D";
+                Duration = 3.5;
+            })
+            end)
 
 Tab2Section:NewButton("ice hub ❄","ice hub",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
 
----Tabs
-
-local Tab1 = window:NewTab("Main ⛑")
-local Tab1Section = Tab1:NewSection("Main ⛑")
-local Tab2 = window:NewTab("Sup ⛑")
-local Tab2Section = Tab2:NewSection("Sup is word ⛑")
-local Tab3 = window:NewTab("Credits ⛑")
-local Tab3Section = Tab3:NewSection("Made By mr pop cat minecraft - roblox 🦁")
-local Tab3Section = Tab3:NewSection("mr pop cat#5496 (discord user name)")
-
----Buttons
-
-Tab1Section:NewButton("kill gui 🧨"," kill gui works in all gemes you need a item",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Kill%20gui%20v2",true))();
-end)
-
-Tab1Section:NewButton("Trick shot sim 🏅"," idk ",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Mrpopcatfrombupge/scripts/main/Trickshot_simsexyGUI.lua",true))();
-end)
-
-Tab1Section:NewButton("soon 🎩"," soon",function()
---soon
-end)
-
-Tab2Section:NewButton("Keyboard ⌨️","Pc Like Keyboard",function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
-end)
-
-Tab2Section:NewButton("inf yaild ♾️","fe admin cmds",function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-end)
-
-Tab2Section:NewButton("fly","soon",function()
---soon
-end)
-
-Tab2Section:NewButton("ice hub ❄","ice hub",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
-end)
+Tab4Section:NewButton("credits ","credits",function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Credits";
+                Text = "made by Mr pop cat";
+                Duration = 3.5;
+            })
+            end)
+Tab4Section:NewButton("team","my team works with me",function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "team:";
+                Text = "(hackar) (mr dark)";
+                Duration = 3.5;
+            })
+            end)
